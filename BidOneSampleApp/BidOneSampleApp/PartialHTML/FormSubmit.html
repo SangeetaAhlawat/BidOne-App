@@ -1,0 +1,27 @@
+<div  ng-controller="formsubmitCtrl">
+
+<div class="row" >
+
+<div class="panel panel-default">
+  <div class="panel-heading">Page Details</div>
+  <div class="panel-body">
+    <form>
+  <div class="form-group">
+    <label for="firstName" >First Name</label>
+    <input class="form-control" ng-model="firstName"  placeholder="First name"></input>
+  </div>
+  <div class="form-group">
+    <label for="lastName">Last Name</label>
+    <input class="form-control"  ng-model="lastName" placeholder="Last Name"></input>
+  </div>
+  </form>
+  </div>
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-xs-11"></div>
+ <div class="col-xs-1" style="padding-right:1px;"><button type="button" class="btn btn-primary" ng-click="submitForm()">Submit</button></div>
+</div>
+
